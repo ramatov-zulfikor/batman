@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <!-- Информация для браузера -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Бэтмен 2021 - страница о фильме</title>
+   <!-- Подключение шрифтов -->
+   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
+   <!-- Подключение стилей -->
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/null.css">
+   <link rel="stylesheet" href="./css/animate.css">
+   <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+
+</head>
+
+<body>
+
+   <!-- Контейнер -->
+   <div class="container">
+
+      <!-- Шапка -->
+      <header class="header">
+
+         <div class="logo"><a href="#">КиноПульс</a></div>
+         <form action="" class="search">
+            <input type="search" class="search-input" placeholder="Фильмы, сериалы и актеры">
+            <button type="submit" class="search-button">
+               <img src="./img/search-icon.svg" alt="">
+            </button>
+         </form>
+         <div class="user">
+            <button type="submit" class="bookmark"><img src="./img/bookmark.svg" alt="bookmark"></button>
+            <button type="submit" class="avatar"><img src="./img/avatar.jpg" alt="avatar" class="avatar"></button>
+         </div>
+
+      </header>
+      <!-- /.header -->
+
+      <!-- Главная -->
+      <main class="main">
+
+         <!-- Информация о фильме -->
+         <h1 class="title animated fadeInLeft delay-1s">Бэтмен</h1>
+         <small class="title-en animated fadeInLeft delay-1s">The Batman</small>
+         <div class="info animated fadeInUp delay-2s">
+            <div class="movie-info">
+               <span class="tag">Фильм</span>
+               <span class="country">США, 2021</span>
+               <a data-fancybox href="https://www.youtube.com/watch?v=Xo8i2ZDMlQg" class="trailer">Смотреть трейлер</a>
+            </div>
+            <a href="#" class="more">Подробнее</a>
+         </div>
+         <!-- /.info -->
+
+         <!-- Контент -->
+         <div class="content">
+
+            <!-- Краткая информация -->
+            <div class="short-info">
+               <img src="./img/poster.jpg" alt="poster" class="poster">
+               <button class="button">Буду смотреть</button>
+               <h3 class="starring">В главных ролях:</h3>
+               <ul class="actors-list">
+                  <li class="actors-list-item"><a href="#">Роберт Паттинсон</a></li>
+                  <li class="actors-list-item"><a href="#">Зои Кравиц</a></li>
+                  <li class="actors-list-item"><a href="#">Колин Фаррелл</a></li>
+                  <li class="actors-list-item"><a href="#">Питер Сарсгаард</a></li>
+                  <li class="actors-list-item"><a href="#">Пол Дано</a></li>
+                  <li class="actors-list-item"><a href="#">Энди Серкис</a></li>
+                  <li class="actors-list-item"><a href="#">Джеффри Райт</a></li>
+                  <li class="actors-list-item"><a href="#">Джон Туртурро</a></li>
+                  <li class="actors-list-item"><a href="#">Макс Карвер</a></li>
+                  <li class="actors-list-item"><a href="#">Кон О’Нилл</a></li>
+               </ul>
+            </div>
+            <!-- /.short-info -->
+
+            <!-- Полная информация -->
+            <div class="full-info">
+
+               <!-- Вкладки -->
+               <nav class="tabs">
+                  <a href="#about" class="tabs-item tabs-item-active">Описание</a>
+                  <a href="#reviews" class="tabs-item">Рецензии</a>
+                  <a href="#premieres" class="tabs-item">Премьеры</a>
+                  <a href="#actors" class="tabs-item">Актеры</a>
+                  <a href="#awards" class="tabs-item">Награды</a>
+                  <a href="#facts" class="tabs-item">Факты</a>
+                  <a href="#sites" class="tabs-item">Сайты</a>
+                  <a href="#" class="tabs-item">
+                     <img src="./img/checked-bookmark.svg" alt="" class="checked-bookmark">
+                  </a>
+               </nav>
+               <!-- /.tabs -->
+
+               <!-- Основная часть -->
+               <div class="full-content">
+
+                  <!-- Информация о фильме -->
+                  <div class="tabs-content visible" id="about">
+                     <p class="text">
+                        Предстоящий американский супергеройский фильм, основанный на одноимённых комиксах издательства DC Comics. Картина будет выпущена компанией Warner Bros. и будет перезагрузкой всех фильмов о Бэтмене.
+                     </p>
+                     <p class="text">
+                        Фильм является десятым по счёту фильмом из Расширенной вселенной DC. Режиссёром и сценаристом фильма выступит Мэтт Ривз, а главную роль исполнит Роберт Паттинсон
+                     </p>
+                     <h4 class="text-title">Разработка</h4>
+                     <p class="text">
+                        В октябре 2014 года студия Warner Bros. объявила, что в разработке находится сольный фильм о Бэтмене, роль которого вновь исполнит Бен Аффлек. В июле 2015 года сообщалось, что Аффлек ведёт переговоры со студией по поводу постановки фильма и совместного написания сценария с Джеффом Джонсом.
+                     </p>
+                     <p class="text">
+                        После выхода фильма «Бэтмен против Супермена: На заре справедливости» руководитель агентства WME Патрик Уайтсел подтвердил, что Аффлек написал сценарий для сольного фильма о Бэтмене и в настоящий момент его рассматривают студия и DC. В мае 2016 года Джереми Айронс подтвердил, что он появится в фильме про Тёмного Рыцаря.
+                     </p>
+                     <p class="text">
+                        На Comic-Con в Сан-Диего в июле 2016 года было официально подтверждено, что Аффлек станет режиссёром картины. В августе 2016 года на одной из страниц Аффлека в социальных сетях был опубликован тестовый материал, в котором был показан персонаж Детстроук. 8 сентября 2016 года Джефф Джонс подтвердил, что Джо Манганьелло сыграет наёмника Слейда Уилсона, который, возможно, станет главным злодеем фильма.
+                     </p>
+                  </div>
+                  <div class="tabs-content" id="reviews">
+                     <p>Тут скоро появятся рецензии</p>
+                  </div>
+                  <div class="tabs-content" id="premieres">
+                     <p>Тут скоро появятся премьеры</p>
+                  </div>
+                  <div class="tabs-content" id="actors">
+                     <p>Тут скоро появятся актеры</p>
+                  </div>
+                  <div class="tabs-content" id="awards">
+                     <p>Тут скоро появятся награды</p>
+                  </div>
+                  <div class="tabs-content" id="facts">
+                     <p>Тут скоро появятся факты</p>
+                  </div>
+                  <div class="tabs-content" id="sites">
+                     <p>Тут скоро появятся сайты</p>
+                  </div>
+                  <!-- /.tabs-content -->
+
+                  <!-- Рассылка и рекламный баннер -->
+                  <div class="subscribe">
+                     <h3 class="subscribe-title">Подпишитесь на обновления</h3>
+                     <form action="#" class="subscribe-form">
+                        <input type="text" class="subscribe-input" placeholder="Ваш E-Mail">
+                        <button class="subscribe-button">
+                           <img src="./img/check.svg" alt="check">
+                        </button>
+                     </form>
+
+                     <a href="#" class="banner">
+                        <img src="./img/ad.jpg" alt="banner">
+                     </a>
+                  </div>
+                  <!-- /.subscribe -->
+
+               </div>
+               <!-- /.full-content -->
+
+            </div>
+            <!-- /.full-info -->
+
+         </div>
+         <!-- /.content -->
+
+      </main>
+      <!-- /.main -->
+
+   </div>
+   <!-- /.container -->
+
+   <!-- Подключаем библиотеку jQuery -->
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+   <!-- Подключаем скрипты -->
+   <script src="./js/main.js"></script>
+   <!-- Подключаем FancyBox -->
+   <script src="./js/jquery.fancybox.min.js"></script>
+
+</body>
+
+</html>
